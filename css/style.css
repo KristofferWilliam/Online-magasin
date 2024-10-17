@@ -1,0 +1,215 @@
+/* style.css */
+header {
+    font-family:'Impact', sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(199, 215, 24);
+    text-align: left;
+    font-size: x-large;
+}
+
+
+.sub-headings {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.søgeikon {
+float: left;
+max-width: 50px;
+}
+
+.sub-headings h2 {
+    margin: 5;
+    padding: 10px;
+    flex: 1;
+    color: #000000;
+    background-color: rgb(199, 215, 24);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 300px;
+}
+
+
+/* Interaktive effekter */
+.sub-headings h2:hover {
+    background-color: #d4d4d4;
+    transform: scale(1.05);
+}
+.sub-headings h2:active {
+    background-color: #c0c0c0;
+    transform: scale(0.95);
+}
+
+
+body {
+    font-family: 'Impact', sans-serif;
+}
+
+.text-box {
+    margin-top: 180px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-shadow: 5px 5px 2px black;
+}
+
+p {
+    font-size: 30px;
+    margin: 0;
+    color: rgb(199, 215, 24);;
+    text-shadow: 5px 5px 2px black;
+}
+
+
+body {
+    background: url(/Billeder/center.jpeg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(199, 215, 24);
+    text-align: center;
+}
+
+.nyhedsbrev{
+    color:rgb(199, 215, 24) ;
+    text-shadow: 5px 5px 2px black;
+}
+
+/* Træning siden */
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 50px;               
+}
+
+
+.black-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 75px;
+    background-color: black;
+    border: 1px solid #ccc;
+    color: #d1ff00;         
+    font-size: 24px;         
+    text-align: center;
+    margin: 20px;
+    margin-left: 25%;
+}
+
+.black-box-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: black;
+    border: 1px solid #ccc;
+    color: #d1ff00; ;         
+    font-size: 16px;         
+    text-align: center;
+    margin: 20px;
+}
+
+/* Fælles sport */
+
+.image-container2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 50px;               
+}
+
+.black-box-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background-color: black;
+    border: 1px solid #ccc;
+    color: #d1ff00; ;         
+    font-size: 16px;         
+    text-align: center;
+    margin: 20px;
+}
+
+/* sundheds side */
+
+.sundheds-sektion {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+}
+
+.sundheds-sektion h2{
+    color: #d1ff00;
+    margin-bottom: 7%;
+}
+
+.sundheds-sektion p{
+    color: #d1ff00;
+    font-size: medium;
+}
+
+.sundhed-container {
+    flex: 1;
+    padding-right: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.sundhed-billeder {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-basis: 30%;
+}
+
+.sundhed-billeder img {
+    width: 100%;
+    height: 175px;
+    border-radius: 8px;
+    background-color: #f8d7da;
+    display: block;
+}
